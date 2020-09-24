@@ -3,6 +3,7 @@
 #Testing Purpose
 
 eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
 
 git add .
 
