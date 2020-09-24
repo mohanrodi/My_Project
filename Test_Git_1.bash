@@ -2,6 +2,8 @@
 
 #Testing Purpose
 
+eval "$(ssh-agent -s)"
+
 git add .
 
 DATE=$(date)
